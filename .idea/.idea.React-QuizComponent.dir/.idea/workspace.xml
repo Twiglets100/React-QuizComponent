@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67197117-1b53-4bf5-87e5-270c50c3e6c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuizEnd.js" afterDir="false" />
+    <list default="true" id="67197117-1b53-4bf5-87e5-270c50c3e6c6" name="Default Changelist" comment="Added next state handlers (if correct answer).">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.React-QuizComponent.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.React-QuizComponent.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuizQuestionButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuizQuestionButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuizQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuizQuestion.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="435">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuizQuestion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -63,11 +62,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuizQuestionButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -93,7 +101,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>props</find>
+      <find>setst</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,10 +114,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/QuizQuestion.js" />
-        <option value="$PROJECT_DIR$/src/QuizQuestionButton.js" />
         <option value="$PROJECT_DIR$/src/QuizEnd.js" />
+        <option value="$PROJECT_DIR$/src/QuizQuestionButton.js" />
         <option value="$PROJECT_DIR$/src/Quiz.js" />
+        <option value="$PROJECT_DIR$/src/QuizQuestion.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -153,6 +166,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -170,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.test:module4">
+  <component name="RunManager" selected="npm.test:module6">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -178,11 +192,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:module4" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="test:module6" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test:module4" />
+        <script value="test:module6" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -190,7 +204,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.start" />
-      <item itemvalue="npm.test:module4" />
+      <item itemvalue="npm.test:module6" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -204,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559739760768</updated>
       <workItem from="1559739761864" duration="4486000" />
-      <workItem from="1559744845361" duration="2693000" />
+      <workItem from="1559744845361" duration="7276000" />
     </task>
     <task id="LOCAL-00001" summary="Added QuizQuestion and communication from Quiz.">
       <created>1559745652067</created>
@@ -227,11 +241,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559746600555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added QuizEnd and conditional state">
+      <created>1559747838054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559747838054</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added next state handlers (if correct answer).">
+      <created>1559750931965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559750931965</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7179000" />
+    <option name="totallyTimeSpent" value="11762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,13 +274,13 @@
     <frame x="0" y="23" width="1920" height="1107" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906404" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906404" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32906404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,7 +310,9 @@
     <MESSAGE value="Added QuizQuestion and communication from Quiz." />
     <MESSAGE value="Added li tag." />
     <MESSAGE value="Created Button and passed the label to it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Button and passed the label to it." />
+    <MESSAGE value="Added QuizEnd and conditional state" />
+    <MESSAGE value="Added next state handlers (if correct answer)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added next state handlers (if correct answer)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,23 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuizQuestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuizQuestionButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuizEnd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -372,13 +385,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuizQuestionButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="435">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuizQuestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
