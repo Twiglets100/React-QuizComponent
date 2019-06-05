@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67197117-1b53-4bf5-87e5-270c50c3e6c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuizQuestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuizQuestionButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.React-QuizComponent.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.React-QuizComponent.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuizQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuizQuestion.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuizQuestion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            <state relative-caret-position="180">
+              <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/QuizQuestionButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -82,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Quiz.js" />
         <option value="$PROJECT_DIR$/src/QuizQuestion.js" />
+        <option value="$PROJECT_DIR$/src/QuizQuestionButton.js" />
       </list>
     </option>
   </component>
@@ -146,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.test:module3">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -154,11 +167,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:module1" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="test:module3" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test:module1" />
+        <script value="test:module3" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -166,7 +179,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.start" />
-      <item itemvalue="npm.test:module1" />
+      <item itemvalue="npm.test:module3" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -180,12 +193,27 @@
       <option name="presentableId" value="Default" />
       <updated>1559739760768</updated>
       <workItem from="1559739761864" duration="4486000" />
-      <workItem from="1559744845361" duration="493000" />
+      <workItem from="1559744845361" duration="1660000" />
     </task>
+    <task id="LOCAL-00001" summary="Added QuizQuestion and communication from Quiz.">
+      <created>1559745652067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559745652067</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added li tag.">
+      <created>1559745847544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559745847544</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4979000" />
+    <option name="totallyTimeSpent" value="6146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,6 +260,11 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added QuizQuestion and communication from Quiz." />
+    <MESSAGE value="Added li tag." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added li tag." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -308,8 +341,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuizQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        <state relative-caret-position="180">
+          <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuizQuestionButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
